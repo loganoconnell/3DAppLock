@@ -1,0 +1,9 @@
+Package: com.tweakysbylogan.3dapplock
+Name: 3DAppLock
+Depends: mobilesubstrate, preferenceloader
+Version: 1
+Architecture: iphoneos-arm
+Description: Lock apps with 3D touch!
+Maintainer: Logan O'Connell
+Author: Logan O'Connell
+Section: Tweaks

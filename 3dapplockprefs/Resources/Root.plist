@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>ThreeDAppLockPrefsCustomCell</string>
+		</dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>             <string>General</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>ThreeDAppLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>key</key>              <string>enabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>icon</key>				<string>enabled.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.3dapplock/saved</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>unlockAllApps</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>label</key>            <string>Unlock All Apps</string>
+            <key>icon</key>             <string>unlock.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>             <string>3D Touch Menu</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>ThreeDAppLockCustomSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>key</key>              <string>showSubtitle</string>
+            <key>label</key>            <string>Show subtitle</string>
+            <key>icon</key>             <string>subtitle.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.3dapplock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>             <string>Passcode</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>ThreeDAppLockCustomSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>key</key>              <string>alwaysPasscodeButton</string>
+            <key>label</key>            <string>Always show passcode button</string>
+            <key>icon</key>             <string>button.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.3dapplock/saved</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>changePasscode</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>label</key>            <string>Change Passcode</string>
+            <key>icon</key>             <string>change.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>ThreeDAppLockSupportController</string>
+            <key>label</key>            <string>Support</string>
+            <key>icon</key>             <string>support.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>respring</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>label</key>            <string>Respring</string>
+            <key>icon</key>             <string>respring.png</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>followLogan</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.3dapplock</string>
+            <key>label</key>            <string>Follow @logandev22</string>
+            <key>icon</key>             <string>twitter.png</string>
+        </dict>
+
+		<dict>
+        	<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerText</key>		<string>© 2015 Logan O'Connell</string>
+			<key>footerAlignment</key>	<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
